@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>Todo List</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body onload="startTime()">
+    <div
+      id="myDIV"
+      class="header"
+    >
+      <p>Waktu Sekarang : <span id="clock"></span></p>
+      <p>Menuju 1 Januari 2024: <span id="countdown"></span></p>
+
+      <h2 style="margin: 5px">My To Do List</h2>
+      <form action="#">
+        <input
+          type="text"
+          id="myInput"
+          placeholder="Masukan list"
+        />
+
+        <button
+          class="addBtn"
+          id="Btn"
+        >
+          Tambah
+        </button>
+      </form>
+    </div>
+
+    <ul id="myUL"></ul>
+
+    <script src="app.js"></script>
+    <script src="clock.js"></script>
+  </body>
+</html>
